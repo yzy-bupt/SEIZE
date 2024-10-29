@@ -2,7 +2,7 @@
 
 ### SEIZE: Semantic Editing Increment Benefits Zero-Shot Composed Image Retrieval
 
-This is the **anonymous  repository** of the paper "***SEIZE**: **S**emantic **E**diting **I**ncrement Benefits **ZE**ro-Shot Composed Image Retrieval*".
+This is the **anonymous  repository** of the paper "***SEIZE**: **S**emantic **E**diting **I**ncrement Benefits **ZE**ro-Shot Composed Image Retrieval*". [**[Paper]**](https://dl.acm.org/doi/pdf/10.1145/3664647.3681649)
 
 ## Overview
 
