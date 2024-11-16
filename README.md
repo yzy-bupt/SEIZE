@@ -1,8 +1,11 @@
-# SEIZE
+# SEIZE (ACM MM 2024)
 
 ### SEIZE: Semantic Editing Increment Benefits Zero-Shot Composed Image Retrieval
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-editing-increment-benefits-zero-shot/zero-shot-composed-image-retrieval-zs-cir-on-1)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-1?p=semantic-editing-increment-benefits-zero-shot)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-editing-increment-benefits-zero-shot/zero-shot-composed-image-retrieval-zs-cir-on)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on?p=semantic-editing-increment-benefits-zero-shot)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-editing-increment-benefits-zero-shot/zero-shot-composed-image-retrieval-zs-cir-on-2)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-2?p=semantic-editing-increment-benefits-zero-shot)
 
-This is the **anonymous  repository** of the paper "***SEIZE**: **S**emantic **E**diting **I**ncrement Benefits **ZE**ro-Shot Composed Image Retrieval*". [**[Paper]**](https://dl.acm.org/doi/pdf/10.1145/3664647.3681649)
+This is the **code  repository** of the paper "***SEIZE**: **S**emantic **E**diting **I**ncrement Benefits **ZE**ro-Shot Composed Image Retrieval*". [**[Paper]**](https://dl.acm.org/doi/pdf/10.1145/3664647.3681649) based on our previous work "***LDRE**: **L**LM-based **D**ivergent **R**easoning and **E**nsemble for Zero-Shot Composed Image Retrieval*". [**[Paper]**](https://dl.acm.org/doi/pdf/10.1145/3626772.3657740) [**[GitHub]**](https://github.com/yzy-bupt/LDRE)
 
 ## Overview
 
