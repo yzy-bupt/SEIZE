@@ -138,3 +138,17 @@ python src/semantic_editing_search.py
 The predictions file will be saved in the `data/test_submissions/{dataset}/` folder.
 
 We have provided the experimental results of our SEIZE for your evaluation on the [CIRR Evaluation Server](https://cirr.cecs.anu.edu.au/) or on the [CIRCO Evaluation Server](https://circo.micc.unifi.it/), in the `data/test_submissions/{dataset}/` folder, which have achieved state-of-the-art (SOTA) results as shown in the paper.
+
+## Citation 
+We hope you find our paper/code useful in your research and cite it as follows. Thanks!
+
+```bibtex
+@inproceedings{yang2024semantic,
+  title={Semantic Editing Increment Benefits Zero-Shot Composed Image Retrieval},
+  author={Yang, Zhenyu and Qian, Shengsheng and Xue, Dizhan and Wu, Jiahong and Yang, Fan and Dong, Weiming and Xu, Changsheng},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={1245--1254},
+  year={2024}
+}
+```
+
