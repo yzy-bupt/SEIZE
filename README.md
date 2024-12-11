@@ -27,11 +27,10 @@ For Linux systems, you can find a conda installation guide [here](https://docs.c
 2. Install Python dependencies
 
 ```sh
-conda create -n SEIZE -y python=3.8.18
+conda create -n SEIZE -y python=3.9.20
 conda activate SEIZE
 conda install -y -c pytorch pytorch=1.11.0 torchvision=0.12.0
-pip install transformers==4.26.1 tqdm==4.66.1 openai==0.28 salesforce-lavis==1.0.2 open_clip_torch==2.24.0
-pip install git+https://github.com/openai/CLIP.git
+pip install -r requirements.txt
 ```
 
 ### Data Preparation
