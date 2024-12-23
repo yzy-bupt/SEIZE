@@ -9,13 +9,11 @@ from pathlib import Path
 SPLIT = 'test1'
 BLIP2_MODEL = 'opt' # or 'opt' or 't5'
 MULTI_CAPTION = True
-NUM_CAPTION = 15
-
 
 openai.api_key = "your_openai_key"
 
-# input_json = '{}_blip2_{}.json'.format(SPLIT, BLIP2_MODEL)
-input_json = 'CIRCO/annotations/test1_opt_multi.json'
+# input_json = 'your_test_json'
+input_json = 'CIRCO/annotations/cap.rc2.test1.json'
 # dataset_path = Path('CIRR')
 
 with open(input_json, "r") as f:

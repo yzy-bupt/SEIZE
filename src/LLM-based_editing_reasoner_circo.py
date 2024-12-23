@@ -7,14 +7,12 @@ import openai
 from pathlib import Path
 
 SPLIT = 'test'
-BLIP2_MODEL = 'opt' # or 'opt' or 't5'
+BLIP2_MODEL = 'opt' # 'opt' or 't5'
 MULTI_CAPTION = True
-NUM_CAPTION = 15
-
 
 openai.api_key = "your_openai_key"
 
-# input_json = '{}_blip2_{}.json'.format(SPLIT, BLIP2_MODEL)
+# input_json = 'your_test_json'
 input_json = 'test.json'
 dataset_path = Path('CIRCO')
 
@@ -80,5 +78,5 @@ for ans in tqdm(annotations):
     # with open("CIRCO/annotations/gpt3.5-temp.json", "a") as f:
     #     f.write(json.dumps(ans, indent=4) + '\n')
 
-with open("CIRCO/annotations/test_gpt3.5_multi_.json", "w") as f:
+with open("CIRCO/annotations/test_gpt3.5_multi.json", "w") as f:
     f.write(json.dumps(annotations, indent=4))

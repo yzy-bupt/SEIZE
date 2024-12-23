@@ -7,15 +7,13 @@ import openai
 from pathlib import Path
 
 SPLIT = 'val'
-BLIP2_MODEL = 'opt' # or 'opt' or 't5'
+BLIP2_MODEL = 'opt' # 'opt' or 't5'
 MULTI_CAPTION = True
-NUM_CAPTION = 15
-
 
 openai.api_key = "your_openai_key"
 
 # input_json = '{}_blip2_{}.json'.format(SPLIT, BLIP2_MODEL)
-dataset_path = Path('/sda/home/qianshengsheng/yzy/FashionIQ')
+dataset_path = Path('FashionIQ')
 # input_json = 'FashionIQ/captions/cap.dress.val.json'
 # dataset_path = Path('CIRR')
 

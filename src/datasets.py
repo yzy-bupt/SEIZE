@@ -207,7 +207,7 @@ class CIRRDataset(Dataset):
                 reference_name = self.triplets[index]['reference']
                 relative_caption = self.triplets[index]['caption']
                 multi_opt = self.triplets[index]['multi_caption_opt'][:args.nums_caption]
-                multi_gpt_opt = self.triplets[index]['multi_gpt-3.5_opt'][:args.nums_caption]
+                multi_gpt_opt = self.triplets[index][f'multi_{args.gpt_version}_opt'][:args.nums_caption]
 
                 if self.split in ['train', 'val']:
                     reference_image_path = self.dataset_path / self.name_to_relpath[reference_name]
@@ -364,8 +364,8 @@ class CIRCODataset(Dataset):
             gpt_caption_t5 =  self.annotations[index]['gpt-3.5-turbo_t5']
             gpt_caption_none = self.annotations[index]['gpt-3.5-turbo_none']
             multi_opt = self.annotations[index]['multi_caption_opt'][:args.nums_caption]
-            multi_gpt_opt = self.annotations[index]['multi_gpt-3.5_opt'][:args.nums_caption]
-            multi_gpt4_opt = self.annotations[index]['multi_gpt-4_opt'][:args.nums_caption]
+            multi_gpt_opt = self.annotations[index][f'multi_{args.gpt_version}_opt'][:args.nums_caption]
+            # multi_gpt4_opt = self.annotations[index]['multi_gpt-4_opt'][:args.nums_caption]
 
             if self.split == 'val':
                 # Get the target image and ground truth images
