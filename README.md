@@ -9,7 +9,7 @@ This is the **code  repository** of the paper "***SEIZE**: **S**emantic **E**dit
 
 ## Overview
 
-![framework](./images/framework.png)
+![framework](./assets/framework.png)
 
 ### Abstract
 
